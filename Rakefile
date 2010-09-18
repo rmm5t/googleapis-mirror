@@ -66,8 +66,8 @@ Here's an Apache example:
 
     <VirtualHost *:80>
       ServerName #{HOSTNAME}
-      DocumentRoot "/path/to/googleapis"
-      <Directory "/path/to/googleapis">
+      DocumentRoot "/path/to/googleapis-mirror"
+      <Directory "/path/to/googleapis-mirror">
         Options Indexes
         Order allow,deny
         Allow from all
