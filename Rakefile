@@ -4,15 +4,19 @@ HOSTNAME = "ajax.googleapis.com"
 
 task :serve do
   puts virtual_host_message
-  sh("ghost add #{HOSTNAME}")
-  trap("INT") do
-    puts
-    sh("ghost delete #{HOSTNAME}")
-    puts "Bye."
-    exit 0
-  end
+  map_hostname
+  trap(0)     { cleanup_and_exit }
+  trap("INT") { cleanup_and_exit }
   puts "\nPress Ctrl-C to unmap #{HOSTNAME}"
   sleep(1000) while true
+end
+
+task :map do
+  map_hostname
+end
+
+task :unmap do
+  unmap_hostname
 end
 
 task :download do
@@ -36,6 +40,23 @@ end
 
 safe_require "directory_watcher"
 safe_require "ghost"
+
+def map_hostname
+  sh("ghost add #{HOSTNAME}")
+end
+
+def unmap_hostname
+  sh("ghost delete #{HOSTNAME}")
+end
+
+def cleanup_and_exit
+  return if @cleaned
+  puts
+  unmap_hostname
+  puts "Bye."
+  @cleaned = true
+  exit 0
+end
 
 def virtual_host_message
   <<-EOM
