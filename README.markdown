@@ -1,3 +1,5 @@
+# Google Library APIs Miror
+
 This is a subset mirror of the [Google Libraries
 API](http://code.google.com/apis/libraries/devguide.html) CDN meant to be served
 from your local development machine when internet access is lacking.
@@ -27,3 +29,13 @@ Here's an example for Apache:
 
 To cancel the local hostname mapping, just `Ctrl-C` the `rake serve` or comment
 the record in your `/etc/hosts` file.
+
+## Author
+
+[Ryan McGeary](http://ryan.mcgeary.org) ([@rmm5t](http://twitter.com/rmm5t))
+
+## Other
+
+[MIT License](http://www.opensource.org/licenses/mit-license.php)
+
+Copyright (c) 2010, Ryan McGeary (ryan -[at]- mcgeary [*dot*] org)
