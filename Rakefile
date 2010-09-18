@@ -42,7 +42,6 @@ rescue LoadError
   exit 1
 end
 
-safe_require "directory_watcher"
 safe_require "ghost"
 
 def map_hostname
