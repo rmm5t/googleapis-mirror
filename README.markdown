@@ -4,6 +4,10 @@ This is a subset mirror of the [Google Libraries
 API](http://code.google.com/apis/libraries/devguide.html) CDN meant to be served
 from your local development machine when internet access is lacking.
 
+**Step 0:** Clone this repository
+
+    git clone git://github.com/rmm5t/googleapis-mirror.git
+
 **Step 1:** Run `rake sync` to download a copy of all the libraries listed in
   `libraries.txt`.
 
