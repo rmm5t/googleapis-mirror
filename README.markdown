@@ -2,8 +2,8 @@ This is a subset mirror of the [Google Libraries
 API](http://code.google.com/apis/libraries/devguide.html) CDN meant to be served
 from your local development machine when internet access is lacking.
 
-**Step 1:** Run `rake download` to download a copy of all the libraries listed
-  in `libraries.txt`.
+**Step 1:** Run `rake sync` to download a copy of all the libraries listed in
+  `libraries.txt`.
 
 **Step 2:** Create a virtual host on your development machine that points to a
   local copy of this repository.

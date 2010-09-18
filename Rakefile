@@ -19,14 +19,18 @@ task :unmap do
   unmap_hostname
 end
 
-task :download do
+task :sync do
   File.foreach("libraries.txt") do |url|
     next if url.nil? || url.strip.empty?
     url.strip!
     path = url.gsub("http://#{HOSTNAME}/", "")
     dir = File.dirname(path)
     FileUtils.mkdir_p(dir)
-    sh("curl '#{url}' > '#{path}'")
+    if File.exists?(path)
+      puts "#{path} already exists"
+    else
+      sh("curl '#{url}' > '#{path}'")
+    end
   end
 end
 
