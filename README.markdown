@@ -1,4 +1,4 @@
-# Google Library APIs Miror
+# Google Library APIs Mirror
 
 This is a subset mirror of the [Google Libraries
 API](http://code.google.com/apis/libraries/devguide.html) CDN meant to be served
@@ -22,7 +22,7 @@ from your local development machine when internet access is lacking.
   that http://ajax.googleapis.com/ behaves like a local mirror for the Google
   Libraries.
 
-**NOTE: You must run this as `sudo`.**  To stop the local web server mirror, just `Ctrl-C` the rake process.
+**NOTE: You must run this as sudo.**  To stop the local web server mirror, just `Ctrl-C` the rake process.
 
 ## Alternatives
 
