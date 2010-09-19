@@ -1,24 +1,15 @@
 task :default => :serve
 
-HOSTNAME = "ajax.googleapis.com"
+IP_ADDRESS = "172.16.88.88"
+HOSTNAME   = "ajax.googleapis.com"
 
+desc "[run as sudo] Creates a virtual IP address, maps ajax.googleapis.com to that IP, and starts a web server to serve a local mirror of ajax.googleapis.com"
 task :serve do
-  puts virtual_host_message
-  map_hostname
-  trap(0)     { cleanup_and_exit }
-  trap("INT") { cleanup_and_exit }
-  puts "\nPress Ctrl-C to unmap #{HOSTNAME}"
-  sleep(1000) while true
+  prepare_for_exit
+  start_virtual_server
 end
 
-task :map do
-  map_hostname
-end
-
-task :unmap do
-  unmap_hostname
-end
-
+desc "Downloads all libraries from ajax.googleapis.com that are listed in libraries.txt"
 task :sync do
   File.foreach("libraries.txt") do |url|
     next if url.nil? || url.strip.empty?
@@ -42,41 +33,58 @@ rescue LoadError
   exit 1
 end
 
+require "webrick"
 safe_require "ghost"
 
+def prepare_for_exit
+  trap(0)     { cleanup_and_exit }
+  trap("INT") { cleanup_and_exit }
+  puts "\nPress Ctrl-C at any time to shutdown\n"
+end
+
+def start_virtual_server
+  create_virtual_ip
+  map_hostname
+  start_web_server
+end
+
+def stop_virtual_server
+  stop_web_server
+  unmap_hostname
+  delete_virtual_ip
+end
+
+def cleanup_and_exit
+  return if @cleaned
+  puts
+  stop_virtual_server
+  puts "Bye."
+  @cleaned = true
+end
+
+def create_virtual_ip
+  sh("ifconfig lo0 alias #{IP_ADDRESS}")
+end
+
+def delete_virtual_ip
+  sh("ifconfig lo0 -alias #{IP_ADDRESS}")
+end
+
 def map_hostname
-  sh("ghost add #{HOSTNAME}")
+  sh("ghost add #{HOSTNAME} #{IP_ADDRESS}")
 end
 
 def unmap_hostname
   sh("ghost delete #{HOSTNAME}")
 end
 
-def cleanup_and_exit
-  return if @cleaned
-  puts
-  unmap_hostname
-  puts "Bye."
-  @cleaned = true
-  exit 0
+def start_web_server
+  @server = WEBrick::HTTPServer.new(:BindAddress => IP_ADDRESS, :Port => 80, :DocumentRoot => Dir.pwd)
+  @server.start
 end
 
-def virtual_host_message
-  <<-EOM
-
-Don't forget to setup a virtual host on a local web server.
-Here's an Apache example:
-
-    <VirtualHost *:80>
-      ServerName #{HOSTNAME}
-      DocumentRoot "/path/to/googleapis-mirror"
-      <Directory "/path/to/googleapis-mirror">
-        Options Indexes
-        Order allow,deny
-        Allow from all
-      </Directory>
-    </VirtualHost>
-
-EOM
+def stop_web_server
+  @server.shutdown if @server
 end
+
 
