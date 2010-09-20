@@ -62,6 +62,7 @@ def delete_virtual_ip
 end
 
 def map_hostname
+  unmap_hostname # to be sure
   sh("ghost add #{HOSTNAME} #{IP_ADDRESS}")
 end
 
