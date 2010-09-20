@@ -28,8 +28,8 @@ require "webrick"
 safe_require "ghost"
 
 def prepare_for_exit
-  trap(0)     { cleanup_and_exit }
   trap("INT") { cleanup_and_exit }
+  trap("TERM") { cleanup_and_exit }
   puts "\nPress Ctrl-C at any time to shutdown\n"
 end
 
