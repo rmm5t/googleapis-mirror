@@ -1,0 +1,10 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    ghost (0.2.8)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  ghost

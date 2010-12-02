@@ -1,3 +1,7 @@
+require "bundler/setup"
+require "webrick"
+require "ghost"
+
 task :default => :serve
 
 IP_ADDRESS = "172.16.88.88"
@@ -15,17 +19,6 @@ task :sync do
     download(url)
   end
 end
-
-def safe_require(require_path, gem_name = require_path)
-  require require_path
-rescue LoadError
-  puts "You are missing a required dependency. Please run:"
-  puts "  gem install #{gem_name}"
-  exit 1
-end
-
-require "webrick"
-safe_require "ghost"
 
 def prepare_for_exit
   trap("INT") { cleanup_and_exit }
