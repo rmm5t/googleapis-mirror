@@ -7,7 +7,7 @@ task :default => :serve
 IP_ADDRESS = "172.16.88.88"
 HOSTNAME   = "ajax.googleapis.com"
 
-desc "[run as sudo] Creates a virtual IP address, maps ajax.googleapis.com to that IP, and starts a web server to serve a local mirror of ajax.googleapis.com"
+desc "[run as sudo] Virtual IP, remap ajax.googleapis.com, starts a web server to serve local mirror of ajax.googleapis.com"
 task :serve do
   prepare_for_exit
   start_virtual_server
