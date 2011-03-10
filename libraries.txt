@@ -35,7 +35,7 @@ http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.6/themes/ui-lightness/jquery-u
 http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.6/themes/vader/jquery-ui.css
 http://ajax.googleapis.com/ajax/libs/mootools/1.3.0/mootools-yui-compressed.js
 http://ajax.googleapis.com/ajax/libs/mootools/1.3.0/mootools.js
-https://ajax.googleapis.com/ajax/libs/prototype/1.7.0.0/prototype.js
+http://ajax.googleapis.com/ajax/libs/prototype/1.7.0.0/prototype.js
 http://ajax.googleapis.com/ajax/libs/scriptaculous/1.8.3/scriptaculous.js
 http://ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js
 http://ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject_src.js
@@ -44,6 +44,8 @@ http://ajax.googleapis.com/ajax/libs/yui/2.8.2/build/yuiloader/yuiloader.js
 http://ajax.googleapis.com/ajax/libs/webfont/1.0.16/webfont.js
 http://ajax.googleapis.com/ajax/libs/webfont/1.0.16/webfont_debug.js
 
+http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js
+http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.js
 http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js
 http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.js
 http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js
