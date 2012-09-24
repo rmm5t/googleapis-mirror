@@ -511,7 +511,7 @@ http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.6/jquery-ui.min.js
 http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.6/jquery-ui.js
 http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.6/themes/base/jquery-ui.css
 http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.6/themes/black-tie/jquery-ui.css
-http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.6/themes/themes/blitzer/jquery-ui.css
+http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.6/themes/blitzer/jquery-ui.css
 http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.6/themes/cupertino/jquery-ui.css
 http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.6/themes/dark-hive/jquery-ui.css
 http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.6/themes/dot-luv/jquery-ui.css
@@ -539,7 +539,7 @@ http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.5/jquery-ui.min.js
 http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.5/jquery-ui.js
 http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.5/themes/base/jquery-ui.css
 http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.5/themes/black-tie/jquery-ui.css
-http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.5/themes/themes/blitzer/jquery-ui.css
+http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.5/themes/blitzer/jquery-ui.css
 http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.5/themes/cupertino/jquery-ui.css
 http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.5/themes/dark-hive/jquery-ui.css
 http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.5/themes/dot-luv/jquery-ui.css
@@ -566,7 +566,7 @@ http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.2/jquery-ui.min.js
 http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.2/jquery-ui.js
 http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.2/themes/base/jquery-ui.css
 http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.2/themes/black-tie/jquery-ui.css
-http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.2/themes/themes/blitzer/jquery-ui.css
+http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.2/themes/blitzer/jquery-ui.css
 http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.2/themes/cupertino/jquery-ui.css
 http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.2/themes/dark-hive/jquery-ui.css
 http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.2/themes/dot-luv/jquery-ui.css
