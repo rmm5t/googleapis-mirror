@@ -57,8 +57,16 @@ http://ajax.googleapis.com/ajax/libs/ext-core/3.0.0/ext-core.js
 http://ajax.googleapis.com/ajax/libs/ext-core/3.0.0/ext-core-debug.js
 
 
+http://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js
+http://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.js
+http://ajax.googleapis.com/ajax/libs/jquery/2.0.1/jquery.min.js
+http://ajax.googleapis.com/ajax/libs/jquery/2.0.1/jquery.js
 http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js
 http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.js
+http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js
+http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.js
+http://ajax.googleapis.com/ajax/libs/jquery/1.10.0/jquery.min.js
+http://ajax.googleapis.com/ajax/libs/jquery/1.10.0/jquery.js
 http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js
 http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.js
 http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js
@@ -1253,6 +1261,8 @@ http://ajax.googleapis.com/ajax/libs/yui/2.8.1/build/yuiloader/yuiloader-min.js
 http://ajax.googleapis.com/ajax/libs/yui/2.8.1/build/yuiloader/yuiloader.js
 
 
+http://ajax.googleapis.com/ajax/libs/webfont/1.4.6/webfont.js
+http://ajax.googleapis.com/ajax/libs/webfont/1.4.6/webfont_debug.js
 http://ajax.googleapis.com/ajax/libs/webfont/1.4.2/webfont.js
 http://ajax.googleapis.com/ajax/libs/webfont/1.4.2/webfont_debug.js
 http://ajax.googleapis.com/ajax/libs/webfont/1.3.0/webfont.js
