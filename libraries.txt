@@ -1267,6 +1267,8 @@ http://ajax.googleapis.com/ajax/libs/yui/2.8.1/build/yuiloader/yuiloader-min.js
 http://ajax.googleapis.com/ajax/libs/yui/2.8.1/build/yuiloader/yuiloader.js
 
 
+http://ajax.googleapis.com/ajax/libs/webfont/1.4.10/webfont.js
+http://ajax.googleapis.com/ajax/libs/webfont/1.4.10/webfont_debug.js
 http://ajax.googleapis.com/ajax/libs/webfont/1.4.8/webfont.js
 http://ajax.googleapis.com/ajax/libs/webfont/1.4.8/webfont_debug.js
 http://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js
