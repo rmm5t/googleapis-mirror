@@ -58,7 +58,6 @@ http://ajax.googleapis.com/ajax/libs/dojo/1.5.1/dojo/dojo.js
 http://ajax.googleapis.com/ajax/libs/dojo/1.5.0/dojo/dojo.js
 http://ajax.googleapis.com/ajax/libs/dojo/1.4.4/dojo/dojo.js
 http://ajax.googleapis.com/ajax/libs/dojo/1.4.3/dojo/dojo.js
-http://ajax.googleapis.com/ajax/libs/dojo/1.4.2/dojo/dojo.js
 http://ajax.googleapis.com/ajax/libs/dojo/1.4.1/dojo/dojo.js
 http://ajax.googleapis.com/ajax/libs/dojo/1.4.0/dojo/dojo.js
 http://ajax.googleapis.com/ajax/libs/dojo/1.3.2/dojo/dojo.js
