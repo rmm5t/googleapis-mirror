@@ -1,3 +1,9 @@
+http://ajax.googleapis.com/ajax/libs/angularjs/1.2.6/angular.min.js
+http://ajax.googleapis.com/ajax/libs/angularjs/1.2.6/angular.js
+http://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js
+http://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.js
+http://ajax.googleapis.com/ajax/libs/angularjs/1.2.4/angular.min.js
+http://ajax.googleapis.com/ajax/libs/angularjs/1.2.4/angular.js
 http://ajax.googleapis.com/ajax/libs/angularjs/1.2.3/angular.min.js
 http://ajax.googleapis.com/ajax/libs/angularjs/1.2.3/angular.js
 http://ajax.googleapis.com/ajax/libs/angularjs/1.2.2/angular.min.js
