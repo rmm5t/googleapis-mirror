@@ -1,3 +1,19 @@
+http://ajax.googleapis.com/ajax/libs/angularjs/1.3.0-beta.13/angular.min.js
+http://ajax.googleapis.com/ajax/libs/angularjs/1.3.0-beta.13/angular.js
+http://ajax.googleapis.com/ajax/libs/angularjs/1.3.0-beta.12/angular.min.js
+http://ajax.googleapis.com/ajax/libs/angularjs/1.3.0-beta.12/angular.js
+http://ajax.googleapis.com/ajax/libs/angularjs/1.3.0-beta.11/angular.min.js
+http://ajax.googleapis.com/ajax/libs/angularjs/1.3.0-beta.11/angular.js
+http://ajax.googleapis.com/ajax/libs/angularjs/1.3.0-beta.10/angular.min.js
+http://ajax.googleapis.com/ajax/libs/angularjs/1.3.0-beta.10/angular.js
+http://ajax.googleapis.com/ajax/libs/angularjs/1.3.0-beta.9/angular.min.js
+http://ajax.googleapis.com/ajax/libs/angularjs/1.3.0-beta.9/angular.js
+http://ajax.googleapis.com/ajax/libs/angularjs/1.3.0-beta.8/angular.min.js
+http://ajax.googleapis.com/ajax/libs/angularjs/1.3.0-beta.8/angular.js
+http://ajax.googleapis.com/ajax/libs/angularjs/1.3.0-beta.7/angular.min.js
+http://ajax.googleapis.com/ajax/libs/angularjs/1.3.0-beta.7/angular.js
+http://ajax.googleapis.com/ajax/libs/angularjs/1.3.0-beta.6/angular.min.js
+http://ajax.googleapis.com/ajax/libs/angularjs/1.3.0-beta.6/angular.js
 http://ajax.googleapis.com/ajax/libs/angularjs/1.3.0-beta.5/angular.min.js
 http://ajax.googleapis.com/ajax/libs/angularjs/1.3.0-beta.5/angular.js
 http://ajax.googleapis.com/ajax/libs/angularjs/1.3.0-beta.4/angular.min.js
@@ -8,6 +24,10 @@ http://ajax.googleapis.com/ajax/libs/angularjs/1.3.0-beta.2/angular.min.js
 http://ajax.googleapis.com/ajax/libs/angularjs/1.3.0-beta.2/angular.js
 http://ajax.googleapis.com/ajax/libs/angularjs/1.3.0-beta.1/angular.min.js
 http://ajax.googleapis.com/ajax/libs/angularjs/1.3.0-beta.1/angular.js
+http://ajax.googleapis.com/ajax/libs/angularjs/1.2.18/angular.min.js
+http://ajax.googleapis.com/ajax/libs/angularjs/1.2.18/angular.js
+http://ajax.googleapis.com/ajax/libs/angularjs/1.2.17/angular.min.js
+http://ajax.googleapis.com/ajax/libs/angularjs/1.2.17/angular.js
 http://ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular.min.js
 http://ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular.js
 http://ajax.googleapis.com/ajax/libs/angularjs/1.2.15/angular.min.js
@@ -191,6 +211,12 @@ http://ajax.googleapis.com/ajax/libs/jquery/1.2.3/jquery.min.js
 http://ajax.googleapis.com/ajax/libs/jquery/1.2.3/jquery.js
 
 
+http://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.2/jquery.mobile.min.css
+http://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.2/jquery.mobile.min.js
+http://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.1/jquery.mobile.min.css
+http://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.1/jquery.mobile.min.js
+http://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.0/jquery.mobile.min.css
+http://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.0/jquery.mobile.min.js
 
 http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js
 http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.js
@@ -1300,6 +1326,8 @@ http://ajax.googleapis.com/ajax/libs/jqueryui/1.5.2/themes/ui-darkness/jquery-ui
 http://ajax.googleapis.com/ajax/libs/jqueryui/1.5.2/themes/ui-lightness/jquery-ui.css
 
 
+http://ajax.googleapis.com/ajax/libs/mootools/1.5.0/mootools-yui-compressed.js
+http://ajax.googleapis.com/ajax/libs/mootools/1.5.0/mootools.js
 http://ajax.googleapis.com/ajax/libs/mootools/1.4.5/mootools-yui-compressed.js
 http://ajax.googleapis.com/ajax/libs/mootools/1.4.5/mootools.js
 http://ajax.googleapis.com/ajax/libs/mootools/1.4.4/mootools-yui-compressed.js
