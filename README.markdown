@@ -49,4 +49,4 @@ example for Apache:
 
 [MIT License](http://www.opensource.org/licenses/mit-license.php)
 
-Copyright (c) 2010, Ryan McGeary (ryan -[at]- mcgeary [*dot*] org)
+Copyright (c) 2010-2017, Ryan McGeary (ryan -[at]- mcgeary [*dot*] org)
